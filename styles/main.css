@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;   
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+
+}
+
+:target{
+    scroll-margin-top: .8em;
+}
+
+
+nav .container{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 45px;
+    text-decoration: none;
+    color: #fff;
+    background: #021c68;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+span{
+    position: relative;
+    display: block;
+    transition: .3s ease;
+}
+span:before{
+    content:attr(data);
+    position: absolute;
+    transform: translateY(40px);
+    color: rgb(22, 146, 255);
+}
+.container:hover span{
+    transform: translateY(-40px);
+}
+.container span:nth-child(1){
+    transition-delay: 0.5s;
+}
+.container span:nth-child(2){
+    transition-delay: .15s;
+}
+.container span:nth-child(3){
+    transition-delay: .25s;
+}
+.container span:nth-child(4){
+    transition-delay: .35s;
+}
+.container span:nth-child(5){
+    transition-delay: .45s;
+}
+.container span:nth-child(6){
+    transition-delay: .55s;
+}
+.container span:nth-child(7){
+    transition-delay: .65s;
+}
+.container span:nth-child(8){
+    transition-delay: .75s;
+}
+.container span:nth-child(9){
+    transition-delay: .85s;
+}
+.container span:nth-child(10){
+    transition-delay: .95s;
+}
+.container span:nth-child(11){
+    transition-delay: .105s;
+}
+
+
+
+.projeto .container{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.projeto .container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 45px;
+    text-decoration: none;
+    color: #fff;
+    background: #021c68;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.projeto .container span{
+    position: relative;
+    display: block;
+    transition: .3s ease;
+}
+.projeto .container span:before{
+    content:attr(data);
+    position: absolute;
+    transform: translateY(40px);
+    color: rgb(0, 136, 255);
+}
+.container:hover span{
+    transform: translateY(-40px);
+}
+.container span:nth-child(1){
+    transition-delay: 0.5s;
+}
+.container span:nth-child(2){
+    transition-delay: .15s;
+}
+.container span:nth-child(3){
+    transition-delay: .25s;
+}
+.container span:nth-child(4){
+    transition-delay: .35s;
+}
+.container span:nth-child(5){
+    transition-delay: .45s;
+}
+.container span:nth-child(6){
+    transition-delay: .55s;
+}
+.container span:nth-child(7){
+    transition-delay: .65s;
+}
+.container span:nth-child(8){
+    transition-delay: .75s;
+}
+
+
+.contato .container{
+    position: absolute;
+    top: 5%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+.contato .container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 45px;
+    text-decoration: none;
+    color: #fff;
+    background: #021c68;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.contato .container span{
+    position: relative;
+    display: block;
+    transition: .3s ease;
+}
+.contato .container span:before{
+    content:attr(data);
+    position: absolute;
+    transform: translateY(40px);
+    color: rgb(0, 136, 255);
+}
+.container:hover span{
+    transform: translateY(-40px);
+}
+.container span:nth-child(1){
+    transition-delay: 0.5s;
+}
+.container span:nth-child(2){
+    transition-delay: .15s;
+}
+.container span:nth-child(3){
+    transition-delay: .25s;
+}
+.container span:nth-child(4){
+    transition-delay: .35s;
+}
+.container span:nth-child(5){
+    transition-delay: .45s;
+}
+.container span:nth-child(6){
+    transition-delay: .55s;
+}
+.container span:nth-child(7){
+    transition-delay: .65s;
+}
+
+
+.about{
+    width: 100%;
+    height: 653px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 25px;
+   margin-top: 5%;
+}
+
+.about__details{
+    flex-basis: 100%;
+    margin-left: 20px;
+}
+
+.about__details h3{
+    font-size: 50px;
+    color: #021c68;
+    font-weight: 500;
+}
+
+.about__details p{
+    color: #f9e4cb;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+
+main .s1{
+    width: 100%;
+    height:400px;
+    background: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)100%), url("../media/tadas-sar-T01GZhBSyMQ-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main .s1 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .s1 .container h2{
+    margin-top: 2.5%;
+    font-size: 40px;
+    color: rgba(0, 136, 255, 0.892);
+}
+
+main .s1 .container p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-left: 2%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(218, 218, 218);
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.projetos{
+    width: 100%;
+    height: 120px;
+    
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
+}
+
+.projetos .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos .container h2{
+    font-size: 45px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #021c68;
+    font-weight: 450;
+}
+
+footer{
+    width: 100%;
+    height:350px;
+    color: #f9e4cb;
+    background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)100%), url("../media/dries-augustyns-WzKPT0IuUrU-unsplash.jpg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .container #contacts{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .container i{
+    list-style: none;
+    margin-top: 20%;
+    font-size: 45px;
+    font-weight: 300;
+    margin: 20px;
+}
+
+footer .container #contacts i a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.carrosel-filmes{
+
+
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
+
+
+}
+
+.contact{
+    width: 100%;
+    height: 120px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
+}
+
+.contact .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .container h2{
+    font-size: 40px;
+    margin-top: 2%;
+    color: #021c68;
+    font-weight: 500;
+}
+
+footer .container #contacts i:hover{
+    font-size: 48px;
+    color: rgba(7,121,222,1);
+    transition: .2s;
+}

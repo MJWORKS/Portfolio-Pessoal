@@ -1,0 +1,74 @@
+@media screen and (max-width:620px){
+  nav .container span{
+     font-size:13px;
+  }  
+
+  .projeto .container span{
+      font-size: 13px; 
+      right: 5%;   
+  }
+
+  .contato .container span{
+      font-size: 13px;
+  }
+}
+
+@media screen and (max-width:415px){
+    nav .container span{
+        font-size:10px;
+     }  
+   
+     .projeto .container span{
+         font-size: 10px; 
+         right: 5%;   
+     }
+   
+     .contato .container span{
+         font-size: 10px;
+     }
+     
+    }
+     @media screen and (max-width:370px){
+         
+        nav .container span{
+            font-size:9px;
+         }  
+       
+         .projeto .container span{
+             font-size: 7px; 
+             right: 5%;  
+             
+         }
+       
+         .contato .container span{
+             font-size: 9px;
+         }
+
+}
+
+@media screen and (max-width:1056px){
+    main .s1 .container .p1{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:640px){
+    main .s1 .container .p1{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:490px){
+    main .s1 .container .p1{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:442px){
+    main .s1 .container .p1{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:394px){
+    main .s1 .container .p1{
+        font-size: 12px;
+    }
+}
